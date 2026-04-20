@@ -7,16 +7,16 @@ const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio website built with Next.js and Tailwind CSS featuring smooth animations and modern design.",
     tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    github: "#",
+    github: "https://github.com/irfanjankhalil/my-portfolio",
     live: "#",
     gradient: "from-blue-500 to-cyan-500",
   },
   
   {
-    title: "Todo App",
-    description: "A simple todo application with add, delete and complete features with a clean modern UI.",
-    tech: ["React", "CSS"],
-    github: "#",
+    title: "EcoWealth Smart Navigator",
+    description: "EcoWealth Smart Navigator is a Full-Stack Web application connecting ethical investors with ESG-compliant businesses through real-time scoring and impact tracking.",
+    tech: ["Node.js","React.js", "MongoDB", "Express.js"],
+    github: "https://github.com/irfanjankhalil/EcoWealthSmartNavigator",
     live: "#",
     gradient: "from-purple-500 to-pink-500",
   },
@@ -28,6 +28,7 @@ const projects = [
     live: "#",
     gradient: "from-orange-500 to-yellow-500",
   },
+  
 ]
 
 export default function Projects() {
@@ -102,6 +103,8 @@ export default function Projects() {
               <div className="flex gap-4">
                 <motion.a
                   href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="flex items-center gap-2 text-gray-400 hover:text-blue-400 text-sm transition-all"
@@ -114,6 +117,8 @@ export default function Projects() {
                 </motion.a>
                 <motion.a
                   href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="flex items-center gap-2 text-gray-400 hover:text-blue-400 text-sm transition-all"

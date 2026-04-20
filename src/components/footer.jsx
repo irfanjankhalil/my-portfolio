@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const socialLinks = [
   { label: "GitHub", href: "https://github.com/irfanjankhalil" },
   { label: "LinkedIn", href: "https://linkedin.com/in/irfan-jan-669426232" },
-  { label: "Twitter", href: "#" },
+  // { label: "Twitter", href: "#" },
 ]
 
 const navLinks = [

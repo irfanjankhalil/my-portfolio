@@ -125,7 +125,7 @@ export default function Contact() {
               {[
                 { label: "GitHub", href: "https://github.com/irfanjankhalil", gradient: "from-gray-700 to-gray-600" },
                 { label: "LinkedIn", href: "https://linkedin.com/in/irfan-jan-669426232", gradient: "from-blue-700 to-blue-600" },
-                { label: "Twitter", href: "https://twitter.com/irfanjankhalil", gradient: "from-sky-700 to-sky-600" },
+                // { label: "Twitter", href: "https://twitter.com/irfanjankhalil", gradient: "from-sky-700 to-sky-600" },
               ].map((social, index) => (
                 <motion.a
                   key={index}

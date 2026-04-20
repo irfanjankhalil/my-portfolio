@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function About() {
   return (
@@ -36,10 +37,13 @@ export default function About() {
         >
           {/* Gradient border effect */}
           <div className="w-64 h-64 rounded-2xl bg-gradient-to-r from-blue-400 to-cyan-400 p-1">
-            <img
-              src="/profile.jpg"
+            <Image
+              src="/profile2.jpg"
               alt="About"
+              width={256}
+              height={256}
               className="w-full h-full rounded-2xl object-cover"
+              priority
             />
           </div>
           {/* Experience badge */}

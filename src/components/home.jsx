@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image"
 import { motion } from "framer-motion"
 
 export default function Home() {
@@ -18,11 +18,14 @@ export default function Home() {
         className="relative mb-6"
       >
         <div className="w-50 h-50 rounded-full bg-gradient-to-r from-blue-400 to-cyan-400 p-1">
-          <img
-            src="/profile.jpg"
-            alt="Profile Picture"
-            className="w-full h-full rounded-full object-cover"
-          />
+          <Image
+          src="/profile.jpg"
+          alt="Profile Picture"
+          width={150}
+          height={150}
+          className="w-full h-full rounded-full object-cover"
+          priority
+/>
         </div>
         {/* Online indicator */}
         <div className="absolute bottom-2 right-2 w-4 h-4 bg-green-400 rounded-full border-2 border-gray-950" />
@@ -58,7 +61,7 @@ export default function Home() {
         transition={{ duration: 0.5, delay: 0.4 }}
         className="text-xl text-gray-400 mb-6"
       >
-        Frontend Developer & UI Designer
+        Frontend Developer
       </motion.p>
 
       {/* Short Bio */}
