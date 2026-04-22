@@ -68,7 +68,7 @@ export default function About() {
         >
           <h3 className="text-2xl font-semibold mb-4">
             I'm a{" "}
-            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
               Frontend Developer
             </span>
           </h3>

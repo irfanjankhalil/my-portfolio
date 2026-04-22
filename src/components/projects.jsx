@@ -8,7 +8,7 @@ const projects = [
     description: "A personal portfolio website built with Next.js and Tailwind CSS featuring smooth animations and modern design.",
     tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/irfanjankhalil/my-portfolio",
-    live: "#",
+    live: "https://irfanjan.netlify.app/",
     gradient: "from-blue-500 to-cyan-500",
   },
   
@@ -23,9 +23,9 @@ const projects = [
   {
     title: "Weather App",
     description: "A weather app that shows current weather and forecast using a live weather API.",
-    tech: ["JavaScript", "API", "CSS"],
-    github: "#",
-    live: "#",
+    tech: ["Next.Js", "Weather API", "Tailwind CSS"],
+    github: "https://github.com/irfanjankhalil/weather-app",
+    live: "https://liveweatherflow.netlify.app",
     gradient: "from-orange-500 to-yellow-500",
   },
   
