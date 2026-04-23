@@ -105,8 +105,8 @@ export default function Skills() {
         className="flex flex-wrap justify-center gap-8 mt-16 max-w-3xl mx-auto"
       >
         {[
-          { number: "10+", label: "Technologies" },
-          { number: "5+", label: "Projects Built" },
+          { number: "5+", label: "Technologies" },
+          { number: "2+", label: "Projects Built" },
           { number: "1+", label: "Years Experience" },
           { number: "100%", label: "Passion" },
         ].map((stat, index) => (

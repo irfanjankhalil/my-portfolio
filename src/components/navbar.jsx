@@ -17,7 +17,7 @@ export default function Navbar() {
   }, [])
 
   useEffect(() => {
-  const sections = ["home", "about", "projects", "skills", "contact"]
+  const sections = ["home", "about", "education", "projects", "skills","experience", "contact"]
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -45,7 +45,7 @@ export default function Navbar() {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className={`flex items-center w-full max-w-5xl justify-between px-6 py-3 rounded-full border transition-all duration-300 ${
+        className={`flex items-center w-full max-w-6xl justify-between px-6 py-3 rounded-full border transition-all duration-300 ${
           scrolled
             ? "bg-gray-900/80 backdrop-blur-md border-gray-700 shadow-lg shadow-black/20"
             : "bg-gray-900/60 backdrop-blur-md border-gray-800"
@@ -63,7 +63,7 @@ export default function Navbar() {
 
         {/* Nav Links — hidden on mobile */}
         <ul className="hidden md:flex items-center gap-1">
-  {["Home", "About", "Projects", "Skills", "Contact"].map((item, index) => {
+  {["Home", "About","Education", "Projects", "Skills","Experience", "Contact"].map((item, index) => {
     const isActive = activeSection === item.toLowerCase()
     return (
       <motion.li
@@ -132,7 +132,7 @@ export default function Navbar() {
             className="absolute top-16 left-4 right-4 bg-gray-900/95 backdrop-blur-md border border-gray-800 rounded-2xl p-6 flex flex-col gap-4 md:hidden"
           >
             {/* Mobile Nav Links */}
-            {["Home", "About", "Projects", "Skills", "Contact"].map((item, index) => (
+            {["Home", "About","Education", "Projects", "Skills","Experience", "Contact"].map((item, index) => (
               <motion.a
                 key={index}
                 href={`#${item.toLowerCase()}`}
