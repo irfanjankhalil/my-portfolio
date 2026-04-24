@@ -167,7 +167,7 @@ export default function Contact() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              placeholder="John Doe"
+              placeholder="Your Name"
               className="bg-gray-800 text-white px-4 py-3 rounded-xl outline-none border border-gray-700 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-all placeholder:text-gray-600"
             />
           </motion.div>
@@ -186,7 +186,7 @@ export default function Contact() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="john@email.com"
+              placeholder="name@email.com"
               className="bg-gray-800 text-white px-4 py-3 rounded-xl outline-none border border-gray-700 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 transition-all placeholder:text-gray-600"
             />
           </motion.div>

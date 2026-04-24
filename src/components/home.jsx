@@ -23,10 +23,11 @@ export default function Home() {
           alt="Profile Picture"
           width={150}
           height={150}
-          className="w-full h-full rounded-full object-cover"
+          className="w-full h-full rounded-full object-cover object-top"
           priority
-/>
+          />
         </div>
+        
         {/* Online indicator */}
         <div className="absolute bottom-2 right-2 w-4 h-4 bg-green-400 rounded-full border-2 border-gray-950" />
       </motion.div>
